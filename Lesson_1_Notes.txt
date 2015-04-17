@@ -1,0 +1,25 @@
+
+12
+3 + 4 + 5
+
+
+       System.out.println(3 + 4 + 5);
+       
+       System.out.println("3 + 4 + 5");
+
+       System.out is the "object"
+       println is the "method"
+
+	
+	System.out.print(3);
+    	Prints a 3 without a line break
+    System.out.println(4 + 5);
+    	prints the sum of 4 and 5 and breaks to a new line
+
+    System.ouch.println(4 + 5);
+    	will give a compile time error
+
+    System.out.println(1 / 0);
+    	will compile but give a runtime error
+
+    	
