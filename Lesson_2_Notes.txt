@@ -1,0 +1,89 @@
+Objects
+
+Objects are the building blocks of a program
+  is a cmoponent with some desired functionality
+important to know "what" the object does but not necessarily "how"
+
+
+Classes
+objects with common behavior
+
+Methods
+actions that can be applied to an object within a class to perform some function
+e.g. birthday.getMonth()
+the item to the right of the period is the method
+
+create a picture object
+use the translate method
+
+variables
+  objects that store values
+Picture rocket;
+  rocket is the variable name
+  rocket.translate(200, 200);
+    allows for the translate method to be used agains the object
+
+Picture  rocket = new Picture ("mariner4.jpg");
+
+variable types must be defined at the time of variable declaration
+we write the TYPE before the name
+  above, the rocket variable of type Picture
+  it's important to give a variable an initial value.  e.g. mariner4.jpg
+    if you forget to initialize the variable, you will get an error when trying 
+      to use it later in the program
+
+Day sallyRidesBirthday = new Day(1951, 5, 26);
+
+  int is the integer type
+
+comments
+int travelTime = 228;
+  for which trip is this set? need to comment on it so, 
+int travelTime = 228;  // Mariner's trip to Mars
+  use // all entry after the double forward slash is ignored by the compiler
+after declaring usint the type, then you can assign a new value to the variable
+  e.g. travelTime = 240;   now changes the value from 228 to 240
+
+Public Interface of a Class
+  tells you the methods that are available for the class 
+    and the acceptable values for each method
+
+
+pic.grow(20,0);
+  pic is the object
+  grow is the method
+  20,0 are the arguments
+
+some times a call returns a value and sometimes it just performs the operation
+  e.g.  int numberOfPixels = pic.pixels();
+
+  the TYPE used when no value is being returned is VOID
+  e.g. void grow(double dw, double, dh)
+    you can define the TYPE of the variable being passed in the arguments
+    above the variabls are being defined as double
+
+
+accessors and mutators
+accessors
+  using methods against a variable doesn't change the original variable
+mutator
+  changes the original variable value to a new value
+
+shared objects
+  an object doesn't store its own data, but it is a reference to the data
+
+Strings and Rectangles are Objects that are references
+int is NOT an object and stores its variables
+
+
+
+
+
+
+
+
+
+
+
+
+

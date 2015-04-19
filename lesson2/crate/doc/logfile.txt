@@ -1,0 +1,52 @@
+Project documentation
+<---- javadoc command: ---->
+/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-sourcepath
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate
+-source
+1.8
+-classpath
+/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate
+-d
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/doc
+-encoding
+US-ASCII
+-charset
+US-ASCII
+-docletpath
+/Applications/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+crate
+-windowtitle
+crate
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Line.java
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Shape.java
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/DrawACrate.java
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Canvas.java
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Color.java
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Rectangle.java
+<---- end of javadoc command ---->
+Loading source file /Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Line.java...
+Loading source file /Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Shape.java...
+Loading source file /Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/DrawACrate.java...
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/DrawACrate.java:24: error: illegal start of expression
+        Rectangle face = ...;
+                         ^
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/DrawACrate.java:26: error: illegal start of expression
+        Line line1 = ...;
+                     ^
+/Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/DrawACrate.java:28: error: illegal start of expression
+        ...
+        ^
+Loading source file /Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Canvas.java...
+Loading source file /Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Color.java...
+Loading source file /Users/mvalent2/mgvlib.cablevision/Personal/Udacity/Intro_to_JAVA/lesson2/crate/Rectangle.java...
+3 errors
